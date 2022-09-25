@@ -1,1 +1,189 @@
-<h1>Test text</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title and icon in the browser tab -->
+    <title>Tanyi's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="img/dev-jane-01.jpg">
+
+    <!-- normalize.min.css is used to make the site appear the same across different browsers -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="img/devjane.png" alt="portfolio logo">
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+
+        <div class="nav">
+            <ul class="nav__list">
+                <li class="nav__list__item"><a href="#home_link" class="nav__list__item__anchor">HOME</a></li>
+                <li class="nav__list__item"><a href="#svc_link" class="nav__list__item__anchor">My Services</a></li>
+                <li class="nav__list__item"><a href="#about_link" class="nav__list__item__anchor">About Me</a></li>
+                <li class="nav__list__item"><a href="#current_proj_link" class="nav__list__item__anchor">Current Projects</a></li>
+
+            </ul>
+        </div>  
+    </header>
+
+
+    <!-- Introduction -->
+    <section class="intro" id="home_link">
+        <h1 class="sxn__title sxn__title__intro">
+            Hi, I am <strong>Tanyi🙂 </strong>
+        </h1>
+        <p class="sxn__subtitle sxn__subtitle__intro">Software Developer</p>
+        <img src="img/dev-jane-01.jpg" alt="a picture of Tanyi smiling">
+    </section>
+
+
+    <!-- My Services -->
+    <section class="my_svc" id="svc_link">
+        <h2 class="sxn__title sxn__title__svc">What I do</h2>
+        <div class="svcs">
+            <div class="svc">
+                <h3>Data Analytics & Engineering</h3>
+                <p>
+                    I enjoy cleaning and telling stories with data. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                 </p>
+            </div> <!--service 1 -->
+
+            <div class="svc">
+                <h3>Backend Development</h3>
+                <p>
+                    I can do APIs and REST and microservcies for you. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                </p>
+            </div> <!--service 2 -->
+
+            <div class="svc">
+                <h3>Enterprise MacOS Tech Support | Intune</h3>
+                <p>
+                    I manage scripting and deployment of Macos device applications in an enterprise environment. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                </p>
+            </div> <!--service 3 -->
+
+        </div> <!--End serviceS -->
+
+        <a href="#current_proj_link" class="btn">Current Projects</a>
+
+    </section>
+    <!-- My Services End -->
+
+
+    <!-- About Me -->
+    <section class="about_me" id="about_link">
+        <h2 class="sxn__title sxn__title__about">Who I am</h2>
+        <p class="sxn__subtitle sxn__subtitle__about"></p>
+
+        <div class="about-me__body">
+            <p></p>
+            <p></p>
+        </div>
+
+        <img src="img/dev-jane-02.jpg" alt="Tanyi posing in dashiki shirt">
+    </section>
+
+    <!-- Current Projects -->
+    <section class="current_proj" id="current_proj_link">
+        <h2 class="sxn__title">Explore my current projects</h2>
+        <p class="sxn__subtitle"></p>
+
+        <div class="portfolio">
+            <!-- portfolio item 01 -->
+            <a href="#" class="portfolio_item">
+                <img src="img/portfolio-01.jpg" alt="" class="portfolio__item__img">
+            </a>
+
+             <!-- portfolio item 02 -->
+             <a href="#" class="portfolio_item">
+                <img src="img/portfolio-02.jpg" alt="" class="portfolio__item__img">
+            </a>
+
+             <!-- portfolio item 03-->
+             <a href="#" class="portfolio_item">
+                <img src="img/portfolio-03.jpg" alt="" class="portfolio__item__img">
+            </a>
+
+             <!-- portfolio item 04-->
+             <a href="#" class="portfolio_item">
+                <img src="img/portfolio-04.jpg" alt="" class="portfolio__item__img">
+            </a>
+
+             <!-- portfolio item 05-->
+             <a href="#" class="portfolio_item">
+                <img src="img/portfolio-05.jpg" alt="" class="portfolio__item__img">
+            </a>
+
+             <!-- portfolio item 06 -->
+             <a href="#" class="portfolio_item">
+                <img src="img/portfolio-06.jpg" alt="" class="portfolio__item__img">
+            </a>
+
+             <!-- portfolio item 07 -->
+             <a href="#" class="portfolio_item">
+                <img src="img/portfolio-07.jpg" alt="" class="portfolio__item__img">
+            </a>
+
+             <!-- portfolio item 08 -->
+             <a href="#" class="portfolio_item">
+                <img src="img/portfolio-08.jpg" alt="" class="portfolio__item__img">
+            </a>
+
+             <!-- portfolio item 09 -->
+             <a href="#" class="portfolio_item">
+                <img src="img/portfolio-09.jpg" alt="" class="portfolio__item__img">
+            </a>
+
+             <!-- portfolio item 10 -->
+             <a href="#" class="portfolio_item">
+                <img src="img/portfolio-10.jpg" alt="" class="portfolio__item__img">
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <a href="mailto:tanyitk@gmail.com" class="footer_link">tanyitk@gmail.com</a>
+        <ul class="social_list">
+            <li class="social_list__item"><a href="#" class="social_list__item__link">LinkedIn</a></li>
+            <li class="social_list__item"><a href="#" class="social_list__item__link">Github</a></li>
+            <li class="social_list__item"><a href="#" class="social_list__item__link">Twitter</a></li>
+            <li class="social_list__item"><a href="#" class="social_list__item__link">WayUp</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
