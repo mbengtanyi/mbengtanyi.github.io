@@ -2593,7 +2593,10 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
+		background-image: url("images/overlay.png"), url("/yellow_higlight.jpg");
+
+
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2621,6 +2624,10 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: 0 0 2em 0;
+			/* border: 2px solid red; */
+			border-radius: 15px;
+			background: rgba(255, 255, 255, 0.1);
+			backdrop-filter: blur(0.1rem);
 		}
 
 		#header strong, #header b {
@@ -3078,7 +3085,9 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
+				background-image: url("images/overlay.png"), url("/yellow_higlight.jpg");
+
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
@@ -3088,6 +3097,7 @@ input, select, textarea {
 				position: relative;
 				text-align: center;
 				width: 100%;
+
 			}
 
 				#footer .icons {
