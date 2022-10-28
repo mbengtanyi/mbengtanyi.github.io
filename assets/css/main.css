@@ -112,12 +112,15 @@ input, select, textarea {
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
 		color: #49bf9d;
+		color: #ab9950;
+
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
 			color: #49bf9d !important;
+			color: #ab9950 !important;
 			text-decoration: none;
 		}
 
@@ -135,7 +138,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #f0b106;
+		color: #b2c2c0;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -289,6 +292,54 @@ input, select, textarea {
 			}
 
 		}
+
+
+/* The Modal (background) */
+	.modal {
+		display: block; /* Hidden by default */
+		position: fixed; /* Stay in place */
+		z-index: 1; /* Sit on top */
+		padding-top: 100px; /* Location of the box */
+		left: 0;
+		top: 0;
+		width: 100%; /* Full width */
+		height: 100%; /* Full height */
+		overflow: auto; /* Enable scroll if needed */
+		background-color: rgb(0,0,0); /* Fallback color */
+		background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	}
+	
+	/* Modal Content */
+	.modal-content {
+		background-color: rgb(219, 216, 216, 0.7);
+		margin: auto;
+		padding: 20px;
+		border: 1px solid ;
+		width: 80%;
+		height: 097%;
+	}
+	.modal-content p{
+		background-color: rgb(253, 40, 40);
+		justify-content: center;
+		margin: 12vw;
+		color: #000;
+		font-size: 1.7em;
+	}
+	
+	/* The Close Button */
+	.close {
+		color: #aaaaaa;
+		float: right;
+		font-size: 28px;
+		font-weight: bold;
+	}
+	
+	.close:hover,
+	.close:focus {
+		color: #000;
+		text-decoration: none;
+		cursor: pointer;
+	}
 
 /* Row */
 
@@ -1842,6 +1893,7 @@ input, select, textarea {
 		select:focus,
 		textarea:focus {
 			border-color: #49bf9d;
+			border-color: #ab9950;
 		}
 
 	select {
@@ -1947,6 +1999,7 @@ input, select, textarea {
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
 			border-color: #49bf9d;
+			border-color: #ab9950;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2465,7 +2518,9 @@ input, select, textarea {
 		input[type="button"]:hover,
 		.button:hover {
 			border-color: #49bf9d;
+			border-color: #ab9950;
 			color: #49bf9d !important;
+			color: #ab9950 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2474,7 +2529,9 @@ input, select, textarea {
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
 			border-color: #49bf9d;
+			border-color: #ab9950;
 			color: #49bf9d !important;
+			color: #ab9950 !important;
 		}
 
 		input[type="submit"].icon,
@@ -2518,7 +2575,9 @@ input, select, textarea {
 		input[type="button"].primary,
 		.button.primary {
 			background-color: #49bf9d;
+			background-color: #ab9950;
 			border-color: #49bf9d;
+			border-color: #ab9950;
 			color: #ffffff !important;
 		}
 
@@ -3111,7 +3170,7 @@ input, select, textarea {
 				background-attachment: scroll;
 				background-color: #1f1815;
 				/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
-				background-image: url("images/overlay.png"), url("/yellow_higlight.jpg");
+				background-image: url("images/overlay.png"), url("/images/main_backgrd.jpg");
 
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
