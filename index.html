@@ -13,6 +13,22 @@
 	</head>
 	<body class="is-preload">
 
+
+		<!-- The Modal with message showing that the page is under construction -->
+		<!-- To be removed when protfolio development is complete or at least acceptable -->
+		<div id="myModal" class="modal">
+
+			<!-- Modal content -->
+			<div class="modal-content">
+			<span class="close">&times;</span>
+			<p align='CENTER'>This page is currently under construction. Please excuse the typos and placeholders. Thank you :)
+				<br>
+				Click [x] or anywhere on this page to continue viewing Tanyi's portfolio
+			</p>
+			</div>
+		
+		</div>
+
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
@@ -49,7 +65,7 @@
 						<h2>Recent Work</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
+								<a href="images/fulls/data_vis_board.png" class="image fit thumb"><img src="images/thumbs/data_vis_board.png" alt="" /></a>
 								<h3><a href="https://github.com/mbengtanyi/Data-Visualisation-App" target="_blank">Data Visualization Dashboard</a></h3>
 								<p>University of London project to create dashboards to visualize UK Government datasets using P5.js.</p>
 							</article>
@@ -59,7 +75,7 @@
 								<p>Introduction to Microservices using Django, Flask, and Javascript</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
+								<a href="images/dusk_fall.png" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
 								<h3><a href="https://sharedewqvooft.labs.coursera.org/" target="_blank">Dusk Falls</a></h3>
 								<p>University of London project to create a theme park website using P5.js</p>
 							</article>
@@ -69,14 +85,14 @@
 								<p>Travel information - Android app - Java.</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
+								<a href="images/loccd_main_page.png" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
 								<h3><a href="https://sharedgijdfhat.labs.coursera.org/" target="_blank">LOCC'D</a></h3>
 								<p>Lovers of Contemporary Cameroonian Cuisine | Discover a blend of culture and modern flavors.</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
 								<h3><a href="#" target="_blank">Global Mean Sea Level Change</a></h3>
-								<p>A visual journey through the world's sea level changes using P5.js' web editorb AMEN</p>
+								<p>A visual journey through the world's sea level changes using P5.js' web editor.</p>
 							</article>
 						</div>
 						<ul class="actions">
@@ -115,7 +131,7 @@
 									</li>
 									<li>
 										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="mailto:tanyitk@gmail.com<">tanyitk@gmail.com</a>
+										<a href="mailto:tanyitk@gmail.com">tanyitk@gmail.com</a>
 									</li>
 								</ul>
 							</div>
@@ -452,7 +468,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<li><a href="mailto:tanyitk@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; TanyiTK</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; TanyiTK `22</li><li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>
@@ -464,6 +480,36 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<!-- Modal: Displays message showing that the page is still under construction -->
+			<script>
+				// Get the modal
+				var modal = document.getElementById("myModal");
+				
+				// Get the button that opens the modal
+				var btn = document.getElementById("myBtn");
+				
+				// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close")[0];
+				
+				// When the user clicks the button, open the modal 
+				// btn.onclick = function() {
+				//   modal.style.display = "block";
+				// }
+				
+				// When the user clicks on <span> (x), close the modal
+				span.onclick = function() {
+				  modal.style.display = "none";
+				}
+				
+				// When the user clicks anywhere outside of the modal, close it
+				window.onclick = function(event) {
+				  if (event.target == modal) {
+					modal.style.display = "none";
+				  }
+				}
+				</script>
+
 
 	</body>
 </html>
