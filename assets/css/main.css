@@ -2593,7 +2593,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
+		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-image: url("images/overlay.png"), url("/yellow_higlight.jpg");
 
 
@@ -2832,6 +2832,31 @@ input, select, textarea {
 			width: 100%;
 			z-index: 1;
 		}
+
+		/* Navbar styling */
+
+		.navbar-nav {
+			padding: 3em;
+			text-decoration: none;
+
+		}
+
+		.nav-item {
+			text-align: center;
+			text-decoration: none;
+
+		}
+
+		.nav-item .a:link {
+			
+		}
+
+		a:link {
+			text-decoration: none;
+		}
+
+
+		/*  */
 
 		.poptrox-popup .nav-next,
 		.poptrox-popup .nav-previous {
