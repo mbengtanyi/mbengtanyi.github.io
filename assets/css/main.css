@@ -328,7 +328,7 @@ input, select, textarea {
 	
 	/* The Close Button */
 	.close {
-		color: #aaaaaa;
+		color: #030303;
 		float: right;
 		font-size: 28px;
 		font-weight: bold;
@@ -336,11 +336,28 @@ input, select, textarea {
 	
 	.close:hover,
 	.close:focus {
-		color: #000;
+		color: rgb(245, 7, 7);
 		text-decoration: none;
 		cursor: pointer;
 	}
 
+
+
+/* Navigation bar */
+	.test-nav{
+		top: 0;
+		z-index: 100000;
+		position: fixed;
+		display: block;
+		/* display: block; */
+		width: 100%;
+		background-color: #49bf9d;
+		border: 5px double green;
+	}
+	.test-nav p{
+		display: block;
+		color: red;
+	} 
 /* Row */
 
 	.row {
@@ -2892,6 +2909,31 @@ input, select, textarea {
 			z-index: 1;
 		}
 
+
+		/* Navbar styling */
+
+		/* .navbar-nav {
+			padding: 3em;
+			text-decoration: none;
+
+		}
+
+		.nav-item {
+			text-align: center;
+			text-decoration: none;
+
+		}
+
+		.nav-item .a:link {
+
+		}
+
+		a:link {
+			text-decoration: none;
+		} */
+
+
+		/*  */
 		.poptrox-popup .nav-next,
 		.poptrox-popup .nav-previous {
 			text-decoration: none;
