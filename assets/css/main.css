@@ -2669,8 +2669,8 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
-		background-image: url("images/overlay.png"), url("/images/main_backgrd.jpg");
+		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("/yellow_higlight.jpg");
 
 
 		background-position: top left,							top left;
@@ -2910,10 +2910,16 @@ input, select, textarea {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 		/* Navbar styling */
 
 		/* .navbar-nav {
+=======
+		/* Navbar styling */
+
+		.navbar-nav {
+>>>>>>> parent of ce2d00a (Merge pull request #12 from mbengtanyi/revert-11-jenn-navbar)
 			padding: 3em;
 			text-decoration: none;
 
@@ -2926,17 +2932,29 @@ input, select, textarea {
 		}
 
 		.nav-item .a:link {
+<<<<<<< HEAD
 
+=======
+			
+>>>>>>> parent of ce2d00a (Merge pull request #12 from mbengtanyi/revert-11-jenn-navbar)
 		}
 
 		a:link {
 			text-decoration: none;
+<<<<<<< HEAD
 		} */
 
 
 		/*  */
 =======
 >>>>>>> parent of 588fb3f (Merge pull request #11 from Jenniline/jenn-navbar)
+=======
+		}
+
+
+		/*  */
+
+>>>>>>> parent of ce2d00a (Merge pull request #12 from mbengtanyi/revert-11-jenn-navbar)
 		.poptrox-popup .nav-next,
 		.poptrox-popup .nav-previous {
 			text-decoration: none;
