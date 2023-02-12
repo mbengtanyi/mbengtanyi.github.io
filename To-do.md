@@ -11,4 +11,4 @@
 
 [] change github and linkedin links to be teh same. Something likt tanyitk.com 
 
-[] Clicking on FULL PORTFOLIO should be SEE ALL PROEJCTS or FULL PROJECT LIST should redirect to  mbengtanyi.github.io/projects with a list of projects displayed as cards.
+[]
