@@ -2594,11 +2594,7 @@ input, select, textarea {
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
 		/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
-<<<<<<< HEAD
-		background-image: url("images/overlay.png"), url("/images/main_backgrd.jpg");
-=======
 		background-image: url("images/overlay.png"), url("/yellow_higlight.jpg");
->>>>>>> parent of cc94baf (Reverting changes made after October 16 2022)
 
 
 		background-position: top left,							top left;
@@ -2837,34 +2833,6 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-<<<<<<< HEAD
-
-		/* Navbar styling */
-
-		/* .navbar-nav {
-			padding: 3em;
-			text-decoration: none;
-
-		}
-
-		.nav-item {
-			text-align: center;
-			text-decoration: none;
-
-		}
-
-		.nav-item .a:link {
-
-		}
-
-		a:link {
-			text-decoration: none;
-		} */
-
-
-		/*  */
-=======
->>>>>>> parent of cc94baf (Reverting changes made after October 16 2022)
 		.poptrox-popup .nav-next,
 		.poptrox-popup .nav-previous {
 			text-decoration: none;
