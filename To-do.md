@@ -11,4 +11,22 @@
 
 [] change github and linkedin links to be teh same. Something likt tanyitk.com 
 
-[]
+[] Tasks for Feb 14th 2022
+    [] Write Test case specification
+    [X] Get Rid of "Learn More" button from bio
+    [] Rewrite bio
+    [] Try cypress test
+    []try selenium test
+    [X] change a hover color to #f0b106
+    []
+    []
+    []
+    []
+    []
+    []
+    []
+    []
+    []
+    []
+    []
+    []
